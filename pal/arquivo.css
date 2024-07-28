@@ -1,0 +1,94 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px; /* 1 rem = 10px */
+    font-family: "Krub", sans-serif;
+    background-image: linear-gradient(to bottom,rgba(7,181,7) 0%,white 100%);
+    
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+
+}
+
+.titulo {
+    background-color: rgb(7, 181, 7);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: rgba(7, 181, 7, 0.756);
+}
+.nav-principal{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.nav-principal a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+
+
+.nav-principal a:hover {
+    background-color:white;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .nav-principal{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
+
+.imagem-pal{
+    background-image: url(fundo.jpeg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: round;
+
+}
+
+.verde{
+    text-align: center;
+ 
+}
+
+p{
+    margin: 2rem;
+    font-size: 2 rem;
+    text-align: center;
+    padding: 5rem;
+}
+
+@media (min-width: 768px) {
+    .jogos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }  
+}
+
+
+.sombra{
+    -moz-box-shadow: 0px 5px 15px 0px rgba(117,117,117,0.49);
+    box-shadow: 0px 5px 15px 0px rgba(117,117,117,0.49);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    }
+    
