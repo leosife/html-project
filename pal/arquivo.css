@@ -15,6 +15,7 @@ body {
 
 }
 
+
 .titulo {
     background-color: rgb(7, 181, 7);
     color: white;
@@ -91,4 +92,24 @@ p{
     padding: 2rem;
     border-radius: 1rem;
     }
-    
+
+
+
+.jogadores{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.jog {
+    display: flex;
+    height: 25rem;
+    width: 25rem;
+    padding: 1rem rem;
+    border: goldenrod;
+    border-style: dotted;
+}
+
+.jog p {
+    padding: 5rem 3rem;
+}
+
